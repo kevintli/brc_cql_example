@@ -65,7 +65,7 @@ else
             --n_epochs=1000 \
             --device='cuda' \
             --logging.output_dir="$OUTPUT_DIR/$EXP_NAME" \
-            --logging.online=False \
+            --logging.online=True \
             --logging.prefix='ExampleCQL' \
             --logging.project="$EXP_NAME" \
             --logging.random_delay=60.0

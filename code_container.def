@@ -18,7 +18,7 @@ From: ./base_img.sif   # Starting from our base container image
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/contained/software/mujoco/mujoco200/bin"
     export D4RL_SUPPRESS_IMPORT_ERROR=1
 
-    export WANDB_API_KEY=''
+    export WANDB_API_KEY='550d539f2cfc963874433268a4acac215fa34bb1'
 
     # Set up python path for the research project
     export PYTHONPATH="$PYTHONPATH:/contained/project/CQL"
